@@ -19,5 +19,5 @@ app.use('/api/rooms',roomsRoute)
 app.use('/api/users',userRoute)
 app.use('/api/bookings',bookingRoute)
 
-const port = 5000 || process.env.port;
+const port = 5000 || process.env.Port;
 app.listen(port, ()=>console.log('nodemon started node'))
